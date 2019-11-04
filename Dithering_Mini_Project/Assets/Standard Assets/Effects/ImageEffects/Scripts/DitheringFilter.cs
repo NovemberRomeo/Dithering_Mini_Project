@@ -8,7 +8,7 @@ public class DitheringFilter : MonoBehaviour
 	public Material ditherMaterial;
 	[Range(0.0f, 1.0f)] 
 	public float ditherStrength = 0.1f;
-	[Range(1, 32)]
+	[Range(1, 64)]
 	public int colourDepth = 4;
 
 	private void OnRenderImage(RenderTexture src, RenderTexture dest)

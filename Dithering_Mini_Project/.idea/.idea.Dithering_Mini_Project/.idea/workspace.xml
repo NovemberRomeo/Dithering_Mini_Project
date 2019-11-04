@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f7a3d1-2cb6-4ef6-b713-1c249dbac03f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dithering_Mini_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dithering_Mini_Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dithering_Mini_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dithering_Mini_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Dithering Filter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Dithering Filter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Materials/Dither.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Materials/Dither.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,53 +18,67 @@
     <session id="-1637591944">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="5" />
           <entry key="shader" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="ShaderLab" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="380" />
-          <entry key="shader" value="376" />
+          <entry key="cs" value="382" />
+          <entry key="shader" value="590" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="380" />
-          <entry key="ShaderLab" value="376" />
+          <entry key="C#" value="382" />
+          <entry key="ShaderLab" value="590" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="850">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
-                <marker date="1572867724886" expanded="true" signature="20:1099" ph="{...}" />
-                <marker date="1572867724886" expanded="true" signature="35:79" ph="{...}" />
-                <marker date="1572867724886" expanded="true" signature="92:1097" ph="{...}" />
-                <marker date="1572867724886" expanded="true" signature="139:1094" ph="{...}" />
-                <marker date="1572867724886" expanded="true" signature="153:1085" ph="{...}" />
+                <marker date="1572872920258" expanded="true" signature="20:1283" ph="{...}" />
+                <marker date="1572872920258" expanded="true" signature="35:79" ph="{...}" />
+                <marker date="1572872920258" expanded="true" signature="92:1281" ph="{...}" />
+                <marker date="1572872920258" expanded="true" signature="139:1278" ph="{...}" />
+                <marker date="1572872920258" expanded="true" signature="153:1269" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <marker date="1572875938380" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572875938380" expanded="true" signature="209:588" ph="{...}" />
+                <marker date="1572875938380" expanded="true" signature="416:582" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,6 +90,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -84,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/Dithering.shader" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/Dithering Filter.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs" />
       </list>
     </option>
   </component>
@@ -93,9 +109,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="3870" />
-    <option name="height" value="2190" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,12 +184,13 @@
       <updated>1572856085150</updated>
       <workItem from="1572856088729" duration="168000" />
       <workItem from="1572856490912" duration="3519000" />
-      <workItem from="1572867289356" duration="554000" />
+      <workItem from="1572867289356" duration="1787000" />
+      <workItem from="1572872783137" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4241000" />
+    <option name="totallyTimeSpent" value="7495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,10 +202,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1935" height="1095" extended-state="1" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18540224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,14 +291,26 @@
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Dithering Filter.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Dithering.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="850">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
-            <marker date="1572867724886" expanded="true" signature="20:1099" ph="{...}" />
-            <marker date="1572867724886" expanded="true" signature="35:79" ph="{...}" />
-            <marker date="1572867724886" expanded="true" signature="92:1097" ph="{...}" />
-            <marker date="1572867724886" expanded="true" signature="139:1094" ph="{...}" />
-            <marker date="1572867724886" expanded="true" signature="153:1085" ph="{...}" />
+            <marker date="1572872920258" expanded="true" signature="20:1283" ph="{...}" />
+            <marker date="1572872920258" expanded="true" signature="35:79" ph="{...}" />
+            <marker date="1572872920258" expanded="true" signature="92:1281" ph="{...}" />
+            <marker date="1572872920258" expanded="true" signature="139:1278" ph="{...}" />
+            <marker date="1572872920258" expanded="true" signature="153:1269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DitheringFilter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1572875938380" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572875938380" expanded="true" signature="209:588" ph="{...}" />
+            <marker date="1572875938380" expanded="true" signature="416:582" ph="{...}" />
           </folding>
         </state>
       </provider>
