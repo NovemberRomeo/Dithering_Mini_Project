@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\nolan\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nolan\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Dithering_Mini_Project.115322264.00" t="ExcludeRecursive" />
+    <e p="C:\Users\nolan\Desktop\AAU\5th Semester\Computer Graphics Programming\Mini Project\Dithering_Mini_Project\Dithering_Mini_Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Standard Assets" t="Include">
+          <e p="Effects" t="Include">
+            <e p="ImageEffects" t="Include">
+              <e p="Readme.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Dithering Filter.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="Dithering.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Dithering_Mini_Project.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
