@@ -11,7 +11,7 @@
             <e p="ImageEffects" t="Include">
               <e p="Readme.txt" t="Include" />
               <e p="Scripts" t="Include">
-                <e p="Dithering Filter.cs" t="Include" />
+                <e p="DitheringFilter.cs" t="Include" />
               </e>
               <e p="Shaders" t="Include">
                 <e p="Dithering.shader" t="Include" />

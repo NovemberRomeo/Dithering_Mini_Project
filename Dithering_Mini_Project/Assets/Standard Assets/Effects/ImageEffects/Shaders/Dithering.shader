@@ -1,4 +1,4 @@
-﻿Shader "Hidden/NewImageEffectShader"
+﻿Shader "AAU/Dither"
 {
 	Properties
 	{
@@ -6,7 +6,6 @@
 	}
 	SubShader
 	{
-		// No culling or depth
 		Cull Off ZWrite Off ZTest Always
 
 		Pass
@@ -14,7 +13,6 @@
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			
 			#include "UnityCG.cginc"
 
 			struct appdata
@@ -38,22 +36,22 @@
 			}
 			
 			sampler2D _MainTex;
-			int _DitherStrength
-			int _ColourDepth
-			
+			int _ColourDepth;
+			float _DitherStrength;
+
 			static const float4x4 ditherTable = float4x4
 			(
-			-4.0, 0.0, -3.0, 1.0,
-			2.0, -2.0, 3.0, -1.0,
-		    -3.0, 1.0, -4.0, 0.0,
-		    3.0, -1.0, 2.0, -2.0
+				-4.0, 0.0, -3.0, 1.0,
+				2.0, -2.0, 3.0, -1.0,
+				-3.0, 1.0, -4.0, 0.0,
+				3.0, -1.0, 2.0, -2.0
 			);
 
-			fixed4 frag (v2f i) : SV_Target
+			fixed4 frag (v2f i) : SV_TARGET
 			{
-				fixed4 col = tex2D(_MainTex, i.uv);
-				uint2 pixelCoord = i.uv*ScreenParams.xy;
-				col += ditherTable[pixelCoord.x %4][pixelCoord.y % 4] * _DitherStrength;
+				fixed4 col = tex2D(_MainTex,i.uv);
+				uint2 pixelCoord = i.uv*_ScreenParams.xy; //warning that modulus is slow on integers, so use uint
+				col += ditherTable[pixelCoord.x % 4][pixelCoord.y % 4] * _DitherStrength;
 				return round(col * _ColourDepth) / _ColourDepth;
 			}
 			ENDCG
